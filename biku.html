@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50;
+            border: 3px solid black;
+            border-radius: 10px;
+            width:"500";
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <u><h3>REGISTRATION  FORM</h3></u>
+</center>
+<form>
+    <center>
+        <table align="center" cellpadding="10">
+            <div>
+                <tr>
+                   <th>Admission No.</th>
+                   <td>
+                       <input type="text" placeholder="Enter the admission no." required>
+                   </td>
+                    <th>Date</th>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+            </div>
+            <br>
+            <br>
+            <div>
+                <tr>
+                    <th>Name of the Course</th>
+                    <td>
+                        <select name="course">
+                            <option value="-1">Select the course</option>
+                            <option value="BTech CSE">BTech CSE</option>
+                            <option value="BTech CST">BTech CST</option>
+                            <option value="BTech ECE">BTech ECE</option>
+                            <option value="BTech BEEE">BTech BEEE</option>
+                            <option value="BTech MECH">BTech MECH</option>
+                            <option value="BTech BT">BTech BT</option>
+                            <option value="BTech AG">BTech AG</option>
+                           </select>
+                   </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Name Of Student</th>
+                    <td>
+                        <input type="text" name="First_Name" maxlength="30" placeholder="Enter your full name">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Nationality</th>
+                    <td>
+                        <input type="text" placeholder="Enter your nationality">
+                    </td>
+                    <th>Category</th>
+                    <td>
+                        <select name="category">
+                            <option value="-1">Select Category</option>
+                            <option>General</option>
+                            <option>SC</option>
+                            <option>ST</option>
+                            <option>OBC</option>
+                        </select>
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Date Of Birth</th>
+                    <td>
+                        <input type="date">
+                    </td>
+                    <th>Date of Birth(in figures)</th>
+                    <td>
+                        <input type="text" placeholder="Enter the DOB in words">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Father's Name</th>
+                    <td>
+                        <input type="text" placeholder="Enter yours father's name">
+                    </td>
+                    <th>Father's Proffesion</th>
+                    <td>
+                        <input type="text" placeholder="Enter Father's Proffesion">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Father's Yearly Income</th>
+                    <td>
+                        <input type="number" placeholder="Enter yearly income">
+                    </td>
+                    <th>Father's Contact No.</th>
+                    <td>
+                        <input type="number" placeholder="Enter father's phone no.">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Mother's's Name</th>
+                    <td>
+                        <input type="text" placeholder="Enter yours mother's name">
+                    </td>
+                    <th>Mother's Proffesion</th>
+                    <td>
+                        <input type="text" placeholder="Enter mother's Proffesion">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Mother's Yearly Income</th>
+                    <td>
+                        <input type="number" placeholder="Enter yearly income">
+                    </td>
+                    <th>Mother's Contact No.</th>
+                    <td>
+                        <input type="number" placeholder="Enter mother's phone no.">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>E-mail</th>
+                    <td>
+                        <input type="mail" placeholder="Enter your E-mail address">
+                        
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>State</th>
+                    <td>
+                        <input type="text" placeholder="Enter name of the state">
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Permanent Address</th>
+                    <td>
+                       <textarea name="" id="" cols="30" rows="4" placeholder="Enter Your Permanent Address"></textarea>
+                    </td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th>Correspondece Address</th>
+                    <td>
+                        <textarea name="" id="" cols="30" rows="4" placeholder="Enter Your Correspondece Address"></textarea>
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </center>
+<center><u><h2>EDUCATIONAL  QUALIFICATION</h2></u></center>
+
+<center>
+    <table  width="50%" style="font-size: 20;">
+        <div>
+            <tr>
+                <td>Examination Passed</td>
+                <td>Name Of School</td>
+                <td>Board</td>
+                <td>Year Of Passing</td>
+                <td>Percentage Of Marks</td>
+                <td>Subject Offered</td>
+            </tr>
+       </div>
+       <div>
+           <tr>
+               <td>Secondary(X)</td>
+               <td>
+                   <input type="text" placeholder="enter school name">
+               </td>
+               <td>
+                  <select name="Board">
+                      <option value="-1">Choose Board</option>
+                      <option>ICSE</option>
+                      <option value="">CBSE</option>
+                      <option value="">HSC</option>
+                      <option value="">OTHERS</option>
+                  </select>
+               </td>
+               <td>
+                   <input type="number" placeholder="Enter the year of passing">
+               </td>
+               <td>
+                   <input type="text" placeholder="enter the percentage(X)">
+               </td>
+               <td>
+                   <input type="text" placeholder="Enter the subjects offered">
+               </td>
+           </tr>
+       </div>
+       <div>
+        <tr>
+            <td>Secondary(XII)</td>
+            <td>
+                <input type="text" placeholder="enter school name">
+            </td>
+            <td>
+               <select name="Board">
+                <option value="-1">Choose Board</option>
+                   <option>ICSE</option>
+                   <option value="">CBSE</option>
+                   <option value="">HSC</option>
+                   <option value="">OTHERS</option>
+               </select>
+            </td>
+            <td>
+                <input type="number" placeholder="Enter the year of passing">
+            </td>
+            <td>
+                <input type="text" placeholder="enter the percentage(XII)">
+            </td>
+            <td>
+                <input type="text" placeholder="Enter the subjects offered">
+            </td>
+        </tr>
+    </div>
+    </table>
+</center>
+<br>
+<center>
+    <div>
+    
+        <input type="submit"></input>
+        <input type="reset"></input>
+    
+</div>
+</center>
+</form>
+</body>
+</html>                         
